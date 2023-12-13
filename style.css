@@ -8,13 +8,17 @@
 
 .title h1 {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    background-color: black;
+    color: orangered;
+    padding: 25px 25px 25px 25px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .weatherBox {
     text-align: center;
-    width: 80%;
+    width: 100%;
     background: url(./bg.jpg) no-repeat;
     background-size: cover;
     color: white;
@@ -144,8 +148,19 @@
 
 .cityInput {
     padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 
 .cityButton {
     padding: 8px;
+    background-color: red;
+    color: black;
+    font-size: small;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.container{
+    background-color: black;
 }
