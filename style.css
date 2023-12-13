@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 25px 25px 0px 0px;
+    background-color: rgb(107, 114, 180);
+    color: white;
+    padding: 5%;
+    font-family:cursive;
+}
+
+.form{
+    text-align: center;
+    background-color: black;
+    border-radius: 0px 0px 25px 25px;
+    margin: 0px 5px 10px 5px;
+}
+
+
+.mealStyle {
+    background-color: rgb(107, 114, 180);
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px rgb(26, 6, 82);
+    border: 2px solid rgb(47, 0, 255);
+    margin:5px;
+}
+
+.mealStyle img {
+    width: 500px; 
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid black;
+}
+
+
+.mealName{
+    padding-top: 15px;
+    font-size: larger;
+}
+
+
+.searchBox{
+    height: 10%;
+    width: 30%;
+    border-radius: 15px;
+}
+
+button{
+    color: white;
+    height: 8%;
+    width: 8%;
+    background-color: rgb(253, 1, 1);
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+
+button:active{
+    color: white;
+    height: 8%;
+    width: 8%;
+    background-color: rgb(107, 114, 180);
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
